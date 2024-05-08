@@ -32,7 +32,7 @@ body {
 }
 
 .carrinho:hover {
-    background-color: #92e3a9;
+    background-color: #e56838;
     border-radius: 5px;
 }
 
@@ -45,7 +45,7 @@ body {
 .main {
     overflow: auto;
     grid-area: main;
-    background-color: #92e3a9;
+    background-color: #e56838;
     padding: 20px;
 }
 
@@ -63,11 +63,11 @@ body {
 }
 
 .menu-item a:hover {
-    background-color: #92e3a9;
+    background-color: #e56838;
 }
 
 .active {
-    background-color: #92e3a9;
+    background-color: #e56838;
 }
 
 .content {

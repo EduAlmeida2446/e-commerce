@@ -22,6 +22,8 @@ CREATE TABLE "Cart" (
     "userId" INTEGER NOT NULL,
     "total" REAL NOT NULL,
     "closed" BOOLEAN NOT NULL DEFAULT false,
+    "dateCreated" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "dateClosed" DATETIME,
     CONSTRAINT "Cart_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
